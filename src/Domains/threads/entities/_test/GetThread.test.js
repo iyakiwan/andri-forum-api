@@ -33,7 +33,7 @@ describe('a GetThread entities', () => {
   it('should create GetThread object correctly', () => {
     // Arrange
     const payload = {
-      id: 'thread-12345',
+      id: 'thread-123',
       username: 'dicoding',
       date: '01 November 2023',
       title: 'Sebuah Title Thread',
