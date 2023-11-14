@@ -17,6 +17,10 @@ DomainErrorTranslator._directories = {
   'REFRESH_AUTHENTICATION_USE_CASE.PAYLOAD_NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('refresh token harus string'),
   'DELETE_AUTHENTICATION_USE_CASE.NOT_CONTAIN_REFRESH_TOKEN': new InvariantError('harus mengirimkan token refresh'),
   'DELETE_AUTHENTICATION_USE_CASE.PAYLOAD_NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('refresh token harus string'),
+  'POST_THREAD.NOT_CONTAIN_NEEDED_PROPERTY': new InvariantError('Property Thread is not valid'),
+  'POST_THREAD.NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('Property Thread is wrong data type'),
+  'POST_COMMENT.NOT_CONTAIN_NEEDED_PROPERTY': new InvariantError('Property Comment is not valid'),
+  'POST_COMMENT.NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('Property Comment is wrong data type'),
 };
 
 module.exports = DomainErrorTranslator;
